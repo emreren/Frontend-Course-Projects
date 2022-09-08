@@ -1,0 +1,82 @@
+h1 {
+    text-align:center; color:chocolate
+}
+h2 {
+    text-align:center; color:darkolivegreen;
+}
+.menu {
+    background-color:antiquewhite;
+    padding: 10px;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+}
+
+.icerik {
+    text-align: center;
+    font-size: large;
+    margin:10px;            
+}
+
+.icerik img {
+    height: 200px;
+}
+
+.icerik ul li{
+    list-style-type:disc;
+    text-align: center;
+    margin:10px; 
+    list-style-position: inside;           
+}
+
+.urun-alani {
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
+
+.urun-alani p img{
+    height: 300px;
+}
+
+.urun-alani p button{
+    width:100px;
+    height: 50px;
+}
+
+.urun-alani p button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.urunler p{
+    font-size: 25px;
+}
+
+.hover :hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 1px rgb(0 0 0 / 25%);
+}
+
+.adres nav {
+    text-align: center;
+    text-decoration: none;
+}
+
+.adres nav a{
+    text-decoration: none;
+    color:dimgray;
+}
